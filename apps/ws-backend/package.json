@@ -13,6 +13,7 @@
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "typescript": "^7.0.2",
+    "@repo/db": "workspace:*",
     "@repo/backend-common" : "workspace:*"
   },
   "dependencies": {
