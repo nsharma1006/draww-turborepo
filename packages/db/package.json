@@ -16,13 +16,14 @@
   },
   "scripts": {
     "build": "prisma generate && tsc -b",
-    "dev": "prisma generate && tsc -b"
+    "dev": "tsc -b"
   },
   "keywords": [],
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/ws": "^8.18.1",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "@repo/backend-common" : "workspace:*"
   },
   "type": "module",
   "dependencies": {
