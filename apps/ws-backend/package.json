@@ -12,7 +12,8 @@
   "type": "module",
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "@repo/backend-common" : "workspace:*"
   },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",

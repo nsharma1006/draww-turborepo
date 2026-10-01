@@ -1,0 +1,26 @@
+{
+  "name": "@repo/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/schema.js",
+  "types": "./dist/schema.d.ts",
+  "exports": {
+    "./schema": {
+      "types": "./dist/schema.d.ts",
+      "default": "./dist/schema.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "^7.0.2"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
+}

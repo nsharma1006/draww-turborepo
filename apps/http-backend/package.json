@@ -12,7 +12,10 @@
   "type": "module",
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "@repo/backend-common" : "workspace:*",
+    "@repo/common" : "workspace:*",
+    "@repo/db" : "workspace:*"
   },
   "dependencies": {
     "@types/express": "^5.0.6",

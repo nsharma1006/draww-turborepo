@@ -1,0 +1,26 @@
+{
+  "name": "@repo/backend-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/config.js",
+  "types": "./dist/config.d.ts",
+  "exports": {
+    "./config": {
+      "types": "./dist/config.d.ts",
+      "default": "./dist/config.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "^7.0.2"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.4"
+  }
+}
